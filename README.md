@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Site em NextJS
 
-## Getting Started
+Eu estava aqui pensando, já que pretendo desenvolver um mini curso de desenvolvimentto Web, tendo mais o foco em desenvolver interfaces e tals. Porque eu não desenvolvo um sitezinho pra demostrar que isso pode ser possivel? Então aqui está eu mostrando ao mundo o que posso ser capaz de desenvolver com NextJS!
 
-First, run the development server:
+Ainda não está 100%, mas posso dizer que com isso dá pra desenvolver a base de qualquer site SSR.
+
+## Meios de comunicação:
+
+[Canal de Informação e Tecnologia](youtube.com/lutriz)
+
+## O que usei:
+
+* ReactJS para o desenvolvimento dos componetes de cada página;
+* NextJS é a base de todo o projeto.
+
+## Atualizações:
+
+Provavelmente terá atualizações desse projeto, já que pretendo utilizar ele como o site de estudos e planejamento de projetos que desenvolvi.
+
+Possível de ser a plataforma que utilizarei para agregar os conteúdos de Download e tudo Mais referente aos cursinhos que pretendo fazer.
+
+## Como iniciar um projeto NextJS?
+
+A documentação da vercel é ótima para ensinar a criaçção de um projeto NextJS, mas basta dar um
 
 ```bash
-npm run dev
-# or
-yarn dev
+npx create-next-app
+
+# ou 
+
+yarn create-next-app
+```
+Se você quiser começar com um projeto TypeScript, inicie assim:
+```bash
+npx create-next-app --typescript
+# ou
+yarn create next-app --typescript
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Palavras finais:
+Agora que você sabe como iniciar uma aplicação NextJS, tente vc mesmo ou baixei esse projeto e estude!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+O projeto é simples mas dá pra dar um gostinho.

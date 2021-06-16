@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.header ul{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.header li + li{
+    margin-left: 20px;
+}
+
+.header li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.header li a:hover{
+    background-color: rgb(49, 49, 49)
+}
